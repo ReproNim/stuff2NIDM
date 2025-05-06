@@ -1,7 +1,7 @@
 # fmriprep2NIDM
 Repo for the process of adding the results of fmriprep processing to the NIDM graph.
 
-This fmriprep2NIDM project is designed to be a specific example of a more generic csv2NIDM problem.
+This fmriprep2NIDM project is designed to be a specific example of a more generic [csv2NIDM](https://github.com/incf-nidash/PyNIDM?tab=readme-ov-file#csv-file-to-nidm-conversion) problem.
 
 The goal is to 
 * Run an analysis tool (such as fmriprep),
