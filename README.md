@@ -5,7 +5,7 @@ This fmriprep2NIDM project is designed to be a specific example of a more generi
 
 The goal is to 
 * Run an analysis tool (such as fmriprep),
-* Represent the results of the tool in a CSV file (example [here](CSVs/ABIDE_fmriprep_results.csv))
+* Represent the results of the tool in a CSV file (example [here](CSVs/ABIDE_fmriprep_results_v2.csv))
 * Generate a dictionary for the results as a CSV file (example [here]())
 * Generate a tool description file (as a CSV file) that captures the details of the analysis (example [here]())
 * Use the above 3 CSV files as input to *pynidm* to generate either a standalone NIDM representation of the results
