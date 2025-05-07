@@ -86,5 +86,12 @@ be asked of the user.
 
 #### Add derivitives to existing NIDM file
 If you happen to have a NIDM file for the MRI images upon which your fmriprep was run, you can add these derivitives to that
-NIDM file. The command is similar to the above stand-alone version except that we provide the '-n' flag followed by the 
-NIDM (.ttl) file you want to add to.  We provide an example ABIDE site NIDM for the OHSU site [here]().
+NIDM file. The command is similar to the above stand-alone version except that we provide the '-nidm' flag followed by the 
+NIDM (.ttl) file you want to add to.  We provide an example ABIDE site NIDM for the OHSU site [here](TTLs/OHSU_nidm.ttl).
+
+```console
+>  csv2nidm -nidm /Your_Path_To/OHSU_nidm.ttl -csv /Your_Path_To/ABIDE_fmriprep_results_v2.csv \
+   -csv_map /Your_Path_To/fmriprep_data_dictionary_v3.csv -no_concepts \
+   -derivative /Your_Path_To/fmriprep_software_metadata.csv
+```
+
