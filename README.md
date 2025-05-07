@@ -7,7 +7,8 @@ The goal is to
 * Run an analysis tool (such as fmriprep),
 * Represent the results of the tool in a CSV file (example [here](CSVs/ABIDE_fmriprep_results_v2.csv))
 * Generate a dictionary for the results as a CSV file (example [here](CSVs/fmriprep_data_dictionary_v3.csv))
-* Generate a tool description file (as a CSV file) that captures the details of the analysis (example [here]())
+* Generate a tool description file (as a CSV file) that captures the details of the analysis
+   (example [here](CSVs/fmriprep_software_metadata.csv))
 * Use the above 3 CSV files as input to *pynidm* to generate either a standalone NIDM representation of the results
   of the analysis tool, or append the tool results to the NIDM representation of the dataset that the tool was applied to.
 
@@ -30,6 +31,9 @@ The goal is to
   [summarize_confounds](https://github.com/BabyBrainStudy/SumarizeNibabies), but will soon more to a public
   repository within the ReproNim organization. More retails about how the summarizer works is provided in
   its documentation.
+
+  This tool was used to generate the *ABIDE_fmriprep_results.csv* file shared above, by running it on all the
+  ABIDE fmriprep results available at s3://fcp-indi/data/Projects/ABIDE/Outputs/fmriprep.
 
   
   
