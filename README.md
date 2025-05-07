@@ -35,5 +35,12 @@ The goal is to
   This tool was used to generate the *ABIDE_fmriprep_results.csv* file shared above, by running it on all the
   ABIDE fmriprep results available at s3://fcp-indi/data/Projects/ABIDE/Outputs/fmriprep.
 
+  ### Step 3: Generate a dictionary for the results as a CSV file
+  Given that the *summarize_confounds* process generates a specific list of features, we need a discionary for
+  files generated in this fashion. The dictionary includes information about the contents of each column including
+  name, description, value type, range, units, semantic annotation, etc. Since this is 'fixed' by the output of
+  the summarizer, other users do note need to generate this file themselves, but rather just need to fetch this file
+  from some source, either here, or more officially, probably shared with the summarizer tool.
+
   
   
