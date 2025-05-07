@@ -59,5 +59,28 @@ the entries for the 'version', 'cmdline' and 'platform' as meets the invocation 
 a constant for a specific tool. This template can be found here, or perhaps more officially, from the particular tool's 
 page or a registry of supported tools that ReproNim may create.
 
-  
+### Step 5: Use *PyNIDM* and the  3 CSV files to generate the NIDM representation  
+*PyNIDM* is available [here](https://github.com/incf-nidash/PyNIDM). We can create the NIDM representation of these 
+results either as a 'stand alone' NIDM file, or attach it to the NIDM representation of the source imaging data that 
+was used.
+
+#### Stand-alone NIDM results
+After installing PyNIDM, one can use the csv2nidm tool to perform the conversion:
+
+```console
+>  csv2nidm -csv /Your_Path_To/ABIDE_fmriprep_results_v2.csv \
+   -csv_map /Your_Path_To/fmriprep_data_dictionary_v3.csv -no_concepts \
+   -derivative /Your_Path_To/fmriprep_software_metadata.csv
+```
+
+In this command, the '-csv' flag indicates the full path to CSV file to convert that contains your ***processing results*** 
+(in this example, the summarized results of the fmriprep analysis. The '-csv_map' is followed by the full path to 
+user-supplied CSV-version of ***data dictionary*** containing the following required columns: source_variable, label,
+description, valueType, measureOf, isAbout(For multiple isAbout entries, use a ';' to separate them in a single column
+within the csv file dataframe), unitCode, minValue, maxValue. The '-derivative', if set, indicates CSV file provided 
+above is derivative data which includes columns 'ses','task','run' which will be used to identify the subject scan 
+session, run, and verify against the task if an existing nidm file is provided and was made from bids (bidsmri2nidm).
+Otherwise these additional columns (ses, task,run) will be ignored. After the '-derivative' flag one must provide 
+the ***software metadata*** CSV file. Additionally, the '-no_concepts' flag specifies that no concept associations will 
+be asked of the user.
   
