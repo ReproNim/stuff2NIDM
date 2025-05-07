@@ -83,4 +83,8 @@ session, run, and verify against the task if an existing nidm file is provided a
 Otherwise these additional columns (ses, task,run) will be ignored. After the '-derivative' flag one must provide 
 the ***software metadata*** CSV file. Additionally, the '-no_concepts' flag specifies that no concept associations will 
 be asked of the user.
-  
+
+#### Add derivitives to existing NIDM file
+If you happen to have a NIDM file for the MRI images upon which your fmriprep was run, you can add these derivitives to that
+NIDM file. The command is similar to the above stand-alone version except that we provide the '-n' flag followed by the 
+NIDM (.ttl) file you want to add to.  We provide an example ABIDE site NIDM for the OHSU site [here]().
