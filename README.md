@@ -94,4 +94,30 @@ NIDM (.ttl) file you want to add to.  We provide an example ABIDE site NIDM for 
    -csv_map /Your_Path_To/fmriprep_data_dictionary_v3.csv -no_concepts \
    -derivative /Your_Path_To/fmriprep_software_metadata.csv
 ```
+### Next steps
+So, you have a NIDM file now, what can you do with it? We can query (ask questions of) it.
+
+* What subjects do you have?
+
+```console
+>  pynidm query -nl ~/GitHub/fmriprep2NIDM/TTLs/OHSU_nidm.ttl -u /subjects
+```
+
+> Subject UUID                            Source Subject ID
+> ------------------------------------  -------------------
+> c77a326a-a169-11ec-b1dd-003ee1ce9545                50155
+> 
+> cc22f39c-a169-11ec-b1dd-003ee1ce9545                50169
+> 
+> c426355a-a169-11ec-b1dd-003ee1ce9545                50143
+
+* What do we know about any given subject?
+
+```console
+>  pynidm query -nl ~/GitHub/fmriprep2NIDM/TTLs/OHSU_nidm.ttl -u /subjects
+```
+
+
+
+
 
