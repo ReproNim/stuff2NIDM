@@ -6,10 +6,10 @@ These examples are designed to be specific examples of a generic [csv2NIDM](http
 In general, the goal is to:
  
 * Run an analysis tool (such as fmriprep),
-* Represent the results of the tool in a CSV file (example [here](CSVs/ABIDE_fmriprep_results_v2.csv))
-* Generate (or fetch) a dictionary for the results as a CSV file (example [here](CSVs/fmriprep_data_dictionary_v3.csv))
+* Represent the results of the tool in a CSV file (example [here](CSVs/fmriprep/ABIDE_fmriprep_results_v2.csv))
+* Generate (or fetch) a dictionary for the results as a CSV file (example [here](CSVs/fmriprep/fmriprep_data_dictionary_v3.csv))
 * Generate a tool description file (as a CSV file) that captures the details of the analysis
-   (example [here](CSVs/fmriprep_software_metadata.csv))
+   (example [here](CSVs/fmriprep/fmriprep_software_metadata.csv))
 * Use the above 3 CSV files as input to *pynidm* to generate either a standalone NIDM representation of the results
   of the analysis tool, or append the tool results to the NIDM representation of the dataset that the tool was applied to.
 
