@@ -7,7 +7,7 @@ import sys
 
 # Get arguments, input json file, and filename for output
 # Parse Command Line
-print ('Usage: mriqc_json_2_nidm.py mriqc_json_file csv_output_file')
+print ('Usage: mriqc_json2csv.py mriqc_json_file csv_output_file')
 print ('Number of arguments:', len(sys.argv), 'arguments.')
 print ('Argument List:', str(sys.argv))
 

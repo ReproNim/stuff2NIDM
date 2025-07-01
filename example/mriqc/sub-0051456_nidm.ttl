@@ -1,0 +1,534 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
+@prefix mriqc: <https://mriqc.readthedocs.io/en/stable/> .
+@prefix ndar: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nidm: <http://purl.org/nidash/nidm#> .
+@prefix niiri: <http://iri.nidash.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <http://semanticscience.org/ontology/sio.owl#> .
+@prefix term_ilx_0101431: <http://uri.interlex.org/base/ilx_0101431> .
+@prefix term_ilx_0101997: <http://uri.interlex.org/base/ilx_0101997> .
+@prefix term_ilx_0101998: <http://uri.interlex.org/base/ilx_0101998> .
+@prefix term_ilx_0102597: <http://uri.interlex.org/base/ilx_0102597> .
+@prefix term_ilx_0726796: <http://uri.interlex.org/base/ilx_0726796> .
+@prefix term_ilx_0738264: <http://uri.interlex.org/base/ilx_0738264> .
+@prefix term_ilx_0781294: <http://uri.interlex.org/base/ilx_0781294> .
+@prefix term_ilx_0783588: <http://uri.interlex.org/base/ilx_0783588> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+niiri:bd7503d6-56b9-11f0-9918-d404e66f40a0 a prov:Collection,
+        prov:Entity ;
+    nfo:filename "example/mriqc/sub-0051456_mriqc_results.csv"^^xsd:string .
+
+niiri:bd750c78-56b9-11f0-9918-d404e66f40a0 a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "example/mriqc/sub-0051456_T1w.json"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:bd750a84-56b9-11f0-9918-d404e66f40a0 ;
+    mriqc:cjv_3riga15 "0.7629945121951219"^^xsd:float ;
+    mriqc:cnr_1mbtopp "1.0659750706558395"^^xsd:float ;
+    mriqc:efc_3t5a1lv "0.6557"^^xsd:float ;
+    mriqc:fber_bies2b "-1.0"^^xsd:float ;
+    mriqc:fwhm_avg_3a2u0o6 "4.56984"^^xsd:float ;
+    mriqc:fwhm_x_s9nkuj "4.57026"^^xsd:float ;
+    mriqc:fwhm_y_ci3bos "4.28893"^^xsd:float ;
+    mriqc:fwhm_z_2nmi5g "4.85033"^^xsd:float ;
+    mriqc:icvs_csf_3ihql6b "0.2598617652880326"^^xsd:float ;
+    mriqc:icvs_gm_2j0atgk "0.3518421309062686"^^xsd:float ;
+    mriqc:icvs_wm_16f2e6e "0.3882961038056989"^^xsd:float ;
+    mriqc:inu_med_307i59v "0.4271179139614105"^^xsd:float ;
+    mriqc:inu_range_575esu "0.2380365252494811"^^xsd:float ;
+    mriqc:rpve_csf_mclvel "6.633056820354057"^^xsd:float ;
+    mriqc:rpve_gm_313nkds "6.490329045447143"^^xsd:float ;
+    mriqc:rpve_wm_36eeodr "6.560259348266452"^^xsd:float ;
+    mriqc:snr_csf_1qk3va4 "2.188948398240152"^^xsd:float ;
+    mriqc:snr_gm_17m63dp "5.928427933516713"^^xsd:float ;
+    mriqc:snr_total_251qiso "7.336223815529809"^^xsd:float ;
+    mriqc:snr_wm_287t8at "13.891295114832564"^^xsd:float ;
+    mriqc:snrd_csf_k309mr "30.333989789861093"^^xsd:float ;
+    mriqc:snrd_gm_37mb0em "57.27396673610136"^^xsd:float ;
+    mriqc:snrd_total_11irqa1 "52.159377937033874"^^xsd:float ;
+    mriqc:snrd_wm_2q1jagt "68.87017728513918"^^xsd:float ;
+    mriqc:summary_bg_k_196plml "197.8744"^^xsd:float ;
+    mriqc:summary_bg_mad_103dfok "0.0"^^xsd:float ;
+    mriqc:summary_bg_mean_9310mt "2.3237"^^xsd:float ;
+    mriqc:summary_bg_median_34j9iel "0.0"^^xsd:float ;
+    mriqc:summary_bg_n_20pilg6 "2567164.0"^^xsd:float ;
+    mriqc:summary_bg_p05_2hho1s6 "0.0"^^xsd:float ;
+    mriqc:summary_bg_p95_1v0esq "9.0"^^xsd:float ;
+    mriqc:summary_bg_stdv_9of7nr "9.2653"^^xsd:float ;
+    mriqc:summary_csf_k_2onu04j "0.7819"^^xsd:float ;
+    mriqc:summary_csf_mad_2l5oq20 "124.5343"^^xsd:float ;
+    mriqc:summary_csf_mean_3476920 "453.4602"^^xsd:float ;
+    mriqc:summary_csf_median_2j9bata "429.0"^^xsd:float ;
+    mriqc:summary_csf_n_26hsipe "446470.8382616682"^^xsd:float ;
+    mriqc:summary_csf_p05_3qv2g9q "84.0"^^xsd:float ;
+    mriqc:summary_csf_p95_2ffhtar "805.0"^^xsd:float ;
+    mriqc:summary_csf_stdv_bgnick "195.9843"^^xsd:float ;
+    mriqc:summary_gm_k_3cnio1r "9.073"^^xsd:float ;
+    mriqc:summary_gm_mad_2drms59 "65.1568"^^xsd:float ;
+    mriqc:summary_gm_mean_e6uul9 "805.179"^^xsd:float ;
+    mriqc:summary_gm_median_u6d26s "810.0"^^xsd:float ;
+    mriqc:summary_gm_n_3qkjn1k "604503.1324534286"^^xsd:float ;
+    mriqc:summary_gm_p05_2juu6h1 "560.0"^^xsd:float ;
+    mriqc:summary_gm_p95_339jr06 "1021.0"^^xsd:float ;
+    mriqc:summary_gm_stdv_1r2gh0e "136.6297"^^xsd:float ;
+    mriqc:summary_wm_k_k114nr "4.1317"^^xsd:float ;
+    mriqc:summary_wm_mad_7c1og3 "59.9743"^^xsd:float ;
+    mriqc:summary_wm_mean_1fvls15 "960.4214"^^xsd:float ;
+    mriqc:summary_wm_median_1l0kgv2 "974.0"^^xsd:float ;
+    mriqc:summary_wm_n_2k2bv8n "667135.0314568729"^^xsd:float ;
+    mriqc:summary_wm_p05_2e9hfu4 "831.0"^^xsd:float ;
+    mriqc:summary_wm_p95_1p69h78 "1057.0"^^xsd:float ;
+    mriqc:summary_wm_stdv_k8l85r "70.1158"^^xsd:float ;
+    mriqc:tpm_overlap_csf_2tfdrk7 "0.2110660541420974"^^xsd:float ;
+    mriqc:tpm_overlap_gm_chmsuq "0.5094654399093015"^^xsd:float ;
+    mriqc:tpm_overlap_wm_3qthmqv "0.5404644750032198"^^xsd:float ;
+    mriqc:wm2max_2hdiaak "0.7532239384178484"^^xsd:float .
+
+mriqc:cjv_3riga15 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cjv" ;
+    dct:description "coefficient of joint variation (CJV): The cjv of GM and WM was proposed as objective function by [Ganzetti2016] for the optimization of INU correction algorithms. Higher values are related to the presence of heavy head motion and large INU artifacts. Lower values are better" ;
+    nidm:sourceVariable "cjv" .
+
+mriqc:cnr_1mbtopp a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cnr" ;
+    dct:description " contrast-to-noise ratio (CNR): The cnr [Magnota2006], is an extension of the SNR calculation to evaluate how separated the tissue distributions of GM and WM are. Higher values indicate better quality" ;
+    nidm:sourceVariable "cnr" .
+
+mriqc:efc_3t5a1lv a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "efc" ;
+    dct:description "The EFC [Atkinson1997] uses the Shannon entropy of voxel intensities as an indication of ghosting and blurring induced by head motion. Lower values are better" ;
+    nidm:sourceVariable "efc" .
+
+mriqc:fber_bies2b a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "fber" ;
+    dct:description "The FBER [Shehzad2015], defined as the mean energy of image values within the head relative to outside the head [QAP-measures]. Higher values are better." ;
+    nidm:sourceVariable "fber" .
+
+mriqc:fwhm_avg_3a2u0o6 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "fwhm_avg" ;
+    dct:description "The FWHM of the spatial distribution of the image intensity values in units of voxels [Forman1995]. Lower values are better, higher values indicate a blurrier image. Average of the x, y and z dimensions" ;
+    nidm:sourceVariable "fwhm_avg" .
+
+mriqc:fwhm_x_s9nkuj a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "fwhm_x" ;
+    dct:description "The FWHM of the spatial distribution of the image intensity values in units of voxels [Forman1995]. Lower values are better, higher values indicate a blurrier image. Measured in the x dimension" ;
+    nidm:sourceVariable "fwhm_x" .
+
+mriqc:fwhm_y_ci3bos a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "fwhm_y" ;
+    dct:description "The FWHM of the spatial distribution of the image intensity values in units of voxels [Forman1995]. Lower values are better, higher values indicate a blurrier image.Measured in the y dimension" ;
+    nidm:sourceVariable "fwhm_y" .
+
+mriqc:fwhm_z_2nmi5g a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "fwhm_z" ;
+    dct:description "The FWHM of the spatial distribution of the image intensity values in units of voxels [Forman1995]. Lower values are better, higher values indicate a blurrier image. Measured in the z dimension" ;
+    nidm:sourceVariable "fwhm_z" .
+
+mriqc:icvs_csf_3ihql6b a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "icvs_csf" ;
+    dct:description "the ICV fractions of CSF. It should move within a normative range." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "icvs_csf" .
+
+mriqc:icvs_gm_2j0atgk a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "icvs_gm" ;
+    dct:description "the ICV fractions of GM. It should move within a normative range." ;
+    nidm:isAbout term_ilx_0726796: ;
+    nidm:sourceVariable "icvs_gm" .
+
+mriqc:icvs_wm_16f2e6e a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "icvs_wm" ;
+    dct:description "the ICV fractions of WM. It should move within a normative range." ;
+    nidm:isAbout term_ilx_0101998: ;
+    nidm:sourceVariable "icvs_wm" .
+
+mriqc:inu_med_307i59v a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "inu_med" ;
+    dct:description "summary statistic (median) of the INU field (bias field) as extracted by the N4ITK algorithm [Tustison2010]. Values closer to 1.0 are better, values further from zero indicate greater RF field inhomogeneity." ;
+    nidm:sourceVariable "inu_med" .
+
+mriqc:inu_range_575esu a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "inu_range" ;
+    dct:description "summary statistic (range) of the INU field (bias field) as extracted by the N4ITK algorithm [Tustison2010]. Values closer to 1.0 are better, values further from zero indicate greater RF field inhomogeneity." ;
+    nidm:sourceVariable "inu_range" .
+
+mriqc:rpve_csf_mclvel a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "rpve_csf" ;
+    dct:description " the rPVe of CSF. Lower values are better." ;
+    nidm:sourceVariable "rpve_csf" .
+
+mriqc:rpve_gm_313nkds a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "rpve_gm" ;
+    dct:description " the rPVe of GM. Lower values are better." ;
+    nidm:sourceVariable "rpve_gm" .
+
+mriqc:rpve_wm_36eeodr a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "rpve_wm" ;
+    dct:description " the rPVe of WM. Lower values are better." ;
+    nidm:sourceVariable "rpve_wm" .
+
+mriqc:snr_csf_1qk3va4 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "snr_csf" ;
+    dct:description "signal-to-noise ratio (SNR): calculated within the CSF." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "snr_csf" .
+
+mriqc:snr_gm_17m63dp a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "snr_gm" ;
+    dct:description "signal-to-noise ratio (SNR): calculated within the GM." ;
+    nidm:isAbout term_ilx_0726796: ;
+    nidm:sourceVariable "snr_gm" .
+
+mriqc:snr_total_251qiso a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "snr_total" ;
+    dct:description "signal-to-noise ratio (SNR): calculated within the total brain." ;
+    nidm:isAbout term_ilx_0101431: ;
+    nidm:sourceVariable "snr_total" .
+
+mriqc:snr_wm_287t8at a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "snr_wm" ;
+    dct:description "signal-to-noise ratio (SNR): calculated within the WM." ;
+    nidm:isAbout term_ilx_0101998: ;
+    nidm:sourceVariable "snr_wm" .
+
+mriqc:snrd_csf_k309mr a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "snrd_csf" ;
+    dct:description "Dietrich’s SNR (SNRd) as proposed by [Dietrich2007], using the air background as reference. Calculated within the CSF." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "snrd_csf" .
+
+mriqc:snrd_gm_37mb0em a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "snrd_gm" ;
+    dct:description "Dietrich’s SNR (SNRd) as proposed by [Dietrich2007], using the air background as reference. Calculated within the GM." ;
+    nidm:isAbout term_ilx_0726796: ;
+    nidm:sourceVariable "snrd_gm" .
+
+mriqc:snrd_total_11irqa1 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "snrd_total" ;
+    dct:description "Dietrich’s SNR (SNRd) as proposed by [Dietrich2007], using the air background as reference. Calculated within the total brain." ;
+    nidm:isAbout term_ilx_0101431: ;
+    nidm:sourceVariable "snrd_total" .
+
+mriqc:snrd_wm_2q1jagt a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "snrd_wm" ;
+    dct:description "Dietrich’s SNR (SNRd) as proposed by [Dietrich2007], using the air background as reference. Calculated within the WM." ;
+    nidm:isAbout term_ilx_0101998: ;
+    nidm:sourceVariable "snrd_wm" .
+
+mriqc:summary_bg_k_196plml a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_bg_k" ;
+    dct:description "Kurtosis of the distribution of background (bg)." ;
+    nidm:isAbout term_ilx_0781294:,
+        term_ilx_0783588: ;
+    nidm:sourceVariable "summary_bg_k" .
+
+mriqc:summary_bg_mad_103dfok a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_bg_mad" ;
+    dct:description "Median absolute deviation (mad) of the distribution of background (bg)." ;
+    nidm:isAbout term_ilx_0783588: ;
+    nidm:sourceVariable "summary_bg_mad" .
+
+mriqc:summary_bg_mean_9310mt a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_bg_mean" ;
+    dct:description "Mean of the distribution of background (bg)." ;
+    nidm:isAbout term_ilx_0738264:,
+        term_ilx_0783588: ;
+    nidm:sourceVariable "summary_bg_mean" .
+
+mriqc:summary_bg_median_34j9iel a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_bg_median" ;
+    dct:description "Median of the distribution of background (bg)." ;
+    nidm:isAbout term_ilx_0783588: ;
+    nidm:sourceVariable "summary_bg_median" .
+
+mriqc:summary_bg_n_20pilg6 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_bg_n" ;
+    dct:description "Number of voxels of the distribution of background (bg)." ;
+    nidm:isAbout term_ilx_0102597:,
+        term_ilx_0783588: ;
+    nidm:sourceVariable "summary_bg_n" .
+
+mriqc:summary_bg_p05_2hho1s6 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_bg_p05" ;
+    dct:description "5% percentile of the distribution of background (bg)." ;
+    nidm:isAbout term_ilx_0783588: ;
+    nidm:sourceVariable "summary_bg_p05" .
+
+mriqc:summary_bg_p95_1v0esq a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_bg_p95" ;
+    dct:description "95% percentile of the distribution of background (bg)." ;
+    nidm:isAbout term_ilx_0783588: ;
+    nidm:sourceVariable "summary_bg_p95" .
+
+mriqc:summary_bg_stdv_9of7nr a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_bg_stdv" ;
+    dct:description "Standard deviation of the distribution of background (bg)." ;
+    nidm:isAbout term_ilx_0783588: ;
+    nidm:sourceVariable "summary_bg_stdv" .
+
+mriqc:summary_csf_k_2onu04j a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_csf_k" ;
+    dct:description "Kurtosis of the distribution of CSF." ;
+    nidm:isAbout term_ilx_0101997:,
+        term_ilx_0781294: ;
+    nidm:sourceVariable "summary_csf_k" .
+
+mriqc:summary_csf_mad_2l5oq20 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_csf_mad" ;
+    dct:description "Median absolute deviation (mad) of the distribution of CSF." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "summary_csf_mad" .
+
+mriqc:summary_csf_mean_3476920 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_csf_mean" ;
+    dct:description "Mean of the distribution of CSF." ;
+    nidm:isAbout term_ilx_0101997:,
+        term_ilx_0738264: ;
+    nidm:sourceVariable "summary_csf_mean" .
+
+mriqc:summary_csf_median_2j9bata a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_csf_median" ;
+    dct:description "Median of the distribution of CSF." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "summary_csf_median" .
+
+mriqc:summary_csf_n_26hsipe a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_csf_n" ;
+    dct:description "Number of voxels of the distribution of CSF." ;
+    nidm:isAbout term_ilx_0101997:,
+        term_ilx_0102597: ;
+    nidm:sourceVariable "summary_csf_n" .
+
+mriqc:summary_csf_p05_3qv2g9q a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_csf_p05" ;
+    dct:description "5% percentile of the distribution of CSF." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "summary_csf_p05" .
+
+mriqc:summary_csf_p95_2ffhtar a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_csf_p95" ;
+    dct:description "95% percentile of the distribution of CSF." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "summary_csf_p95" .
+
+mriqc:summary_csf_stdv_bgnick a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_csf_stdv" ;
+    dct:description "Standard deviation of the distribution of CSF." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "summary_csf_stdv" .
+
+mriqc:summary_gm_k_3cnio1r a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_gm_k" ;
+    dct:description "Kurtosis of the distribution of GM." ;
+    nidm:isAbout term_ilx_0101997:,
+        term_ilx_0781294: ;
+    nidm:sourceVariable "summary_gm_k" .
+
+mriqc:summary_gm_mad_2drms59 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_gm_mad" ;
+    dct:description "Median absolute deviation (mad) of the distribution of GM." ;
+    nidm:isAbout term_ilx_0726796: ;
+    nidm:sourceVariable "summary_gm_mad" .
+
+mriqc:summary_gm_mean_e6uul9 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_gm_mean" ;
+    dct:description "Mean of the distribution of GM." ;
+    nidm:isAbout term_ilx_0726796:,
+        term_ilx_0738264: ;
+    nidm:sourceVariable "summary_gm_mean" .
+
+mriqc:summary_gm_median_u6d26s a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_gm_median" ;
+    dct:description "Median of the distribution of GM." ;
+    nidm:isAbout term_ilx_0726796: ;
+    nidm:sourceVariable "summary_gm_median" .
+
+mriqc:summary_gm_n_3qkjn1k a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_gm_n" ;
+    dct:description "Number of voxels of the distribution of GM." ;
+    nidm:isAbout term_ilx_0102597:,
+        term_ilx_0726796: ;
+    nidm:sourceVariable "summary_gm_n" .
+
+mriqc:summary_gm_p05_2juu6h1 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_gm_p05" ;
+    dct:description "5% percentile of the distribution of GM." ;
+    nidm:isAbout term_ilx_0726796: ;
+    nidm:sourceVariable "summary_gm_p05" .
+
+mriqc:summary_gm_p95_339jr06 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_gm_p95" ;
+    dct:description "95% percentile of the distribution of GM." ;
+    nidm:isAbout term_ilx_0726796: ;
+    nidm:sourceVariable "summary_gm_p95" .
+
+mriqc:summary_gm_stdv_1r2gh0e a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_gm_stdv" ;
+    dct:description "Standard deviation of the distribution of GM." ;
+    nidm:isAbout term_ilx_0726796: ;
+    nidm:sourceVariable "summary_gm_stdv" .
+
+mriqc:summary_wm_k_k114nr a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_wm_k" ;
+    dct:description "Kurtosis of the distribution of WM." ;
+    nidm:isAbout term_ilx_0101998:,
+        term_ilx_0781294: ;
+    nidm:sourceVariable "summary_wm_k" .
+
+mriqc:summary_wm_mad_7c1og3 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_wm_mad" ;
+    dct:description "Median absolute deviation (mad) of the distribution of WM." ;
+    nidm:isAbout term_ilx_0101998: ;
+    nidm:sourceVariable "summary_wm_mad" .
+
+mriqc:summary_wm_mean_1fvls15 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_wm_mean" ;
+    dct:description "Mean of the distribution of WM." ;
+    nidm:isAbout term_ilx_0101998:,
+        term_ilx_0738264: ;
+    nidm:sourceVariable "summary_wm_mean" .
+
+mriqc:summary_wm_median_1l0kgv2 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_wm_median" ;
+    dct:description "Median of the distribution of WM." ;
+    nidm:isAbout term_ilx_0101998: ;
+    nidm:sourceVariable "summary_wm_median" .
+
+mriqc:summary_wm_n_2k2bv8n a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_wm_n" ;
+    dct:description "Number of voxels of the distribution of WM." ;
+    nidm:isAbout term_ilx_0101998:,
+        term_ilx_0102597: ;
+    nidm:sourceVariable "summary_wm_n" .
+
+mriqc:summary_wm_p05_2e9hfu4 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_wm_p05" ;
+    dct:description "5% percentile of the distribution of WM." ;
+    nidm:isAbout term_ilx_0101998: ;
+    nidm:sourceVariable "summary_wm_p05" .
+
+mriqc:summary_wm_p95_1p69h78 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_wm_p95" ;
+    dct:description "95% percentile of the distribution of WM." ;
+    nidm:isAbout term_ilx_0101998: ;
+    nidm:sourceVariable "summary_wm_p95" .
+
+mriqc:summary_wm_stdv_k8l85r a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "summary_wm_stdv" ;
+    dct:description "Standard deviation of the distribution of CSF." ;
+    nidm:isAbout term_ilx_0101998: ;
+    nidm:sourceVariable "summary_wm_stdv" .
+
+mriqc:tpm_overlap_csf_2tfdrk7 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "tpm_overlap_csf" ;
+    dct:description "The overlap of the TPMs estimated from the image and the corresponding maps from the ICBM nonlinear-asymmetric 2009c template for the CSF. Higher values are better." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "tpm_overlap_csf" .
+
+mriqc:tpm_overlap_gm_chmsuq a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "tpm_overlap_gm" ;
+    dct:description "The overlap of the TPMs estimated from the image and the corresponding maps from the ICBM nonlinear-asymmetric 2009c template for the GM. Higher values are better." ;
+    nidm:isAbout term_ilx_0726796: ;
+    nidm:sourceVariable "tpm_overlap_gm" .
+
+mriqc:tpm_overlap_wm_3qthmqv a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "tpm_overlap_wm" ;
+    dct:description "The overlap of the TPMs estimated from the image and the corresponding maps from the ICBM nonlinear-asymmetric 2009c template for the WM. Higher values are better." ;
+    nidm:isAbout term_ilx_0101998: ;
+    nidm:sourceVariable "tpm_overlap_wm" .
+
+mriqc:wm2max_2hdiaak a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "wm2max" ;
+    dct:description "The white-matter to maximum intensity ratio is the median intensity within the WM mask over the 95% percentile of the full intensity distribution, that captures the existence of long tails due to hyper-intensity of the carotid vessels and fat. Values should be around the interval [0.6, 0.8]." ;
+    nidm:sourceVariable "wm2max" .
+
+niiri:bd74376c-56b9-11f0-9918-d404e66f40a0 a nidm:Project,
+        prov:Activity .
+
+niiri:bd750a84-56b9-11f0-9918-d404e66f40a0 a prov:Activity ;
+    dct:isPartOf niiri:bd74376c-56b9-11f0-9918-d404e66f40a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bd81d12e-56b9-11f0-9918-d404e66f40a0 ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:bd81ce86-56b9-11f0-9918-d404e66f40a0 ;
+            prov:hadRole sio:Subject ] ;
+    mriqc:cmdline "mriqc --version 25.0.0rc0"^^xsd:string ;
+    mriqc:platform "Linux 4.18.0-372.9.1.el8.x86_64"^^xsd:string .
+
+niiri:bd81ce86-56b9-11f0-9918-d404e66f40a0 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "0051456"^^xsd:string .
+
+niiri:bd81d12e-56b9-11f0-9918-d404e66f40a0 a prov:Agent ;
+    dctypes:title "mriqc"^^xsd:string ;
+    dct:description "MRIQC extracts no-reference IQMs (image quality..."^^xsd:string ;
+    dct:hasVersion "25.0.0rc0"^^xsd:string ;
+    sio:URL "https://mriqc.readthedocs.io/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+nidm:PersonalDataElement rdfs:subClassOf nidm:DataElement .
+
