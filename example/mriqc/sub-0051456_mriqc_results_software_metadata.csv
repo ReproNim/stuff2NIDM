@@ -1,0 +1,2 @@
+title,description,version,url,cmdline,platform,ID
+mriqc,"MRIQC extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w), functional and diffusion MRI data.",25.0.0rc0,https://mriqc.readthedocs.io/en/stable/,mriqc --version 25.0.0rc0,Linux 4.18.0-372.9.1.el8.x86_64,https://scicrunch.org/resolver/RRID:SCR_022942
