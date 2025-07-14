@@ -1,0 +1,410 @@
+@prefix bids: <http://bids.neuroimaging.io/> .
+@prefix crypto: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix freesurfer: <https://surfer.nmr.mgh.harvard.edu/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nidm: <http://purl.org/nidash/nidm#> .
+@prefix niiri: <http://iri.nidash.org/> .
+@prefix ns2: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sio: <http://semanticscience.org/ontology/sio.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+niiri:a1b7cf40-603a-11f0-88dc-a6497c4a616c a bids:Dataset,
+        prov:Collection,
+        prov:Entity ;
+    bids:BIDSVersion "1.4.2" ;
+    bids:name "abide-Caltech" ;
+    prov:hadMember niiri:b3a8b870-1c70-11f0-a1cc-d404e674afa0 .
+
+niiri:e36972dc-1c70-11f0-a1cc-d404e674afa0 a nidm:FSStatsCollection,
+        prov:Entity ;
+    prov:wasGeneratedBy niiri:a1b7d7f6-603a-11f0-88dc-a6497c4a616c,
+        niiri:b3a8bb18-1c70-11f0-a1cc-d404e674afa0 ;
+    freesurfer:fs_000001 129712 ;
+    freesurfer:fs_000002 "87498.7"^^xsd:float ;
+    freesurfer:fs_000003 "1458685.0"^^xsd:float ;
+    freesurfer:fs_000004 "1138050.0"^^xsd:float ;
+    freesurfer:fs_000005 "1138050.0"^^xsd:float ;
+    freesurfer:fs_000006 "518305.803827"^^xsd:float ;
+    freesurfer:fs_000007 "1293145.0"^^xsd:float ;
+    freesurfer:fs_000008 "972510.0"^^xsd:float ;
+    freesurfer:fs_000009 "1570651.410798"^^xsd:float ;
+    freesurfer:fs_000137 "2.61161"^^xsd:float ;
+    freesurfer:fs_000444 1870 ;
+    freesurfer:fs_000445 1256 ;
+    freesurfer:fs_000446 3544 ;
+    freesurfer:fs_000447 "2.607"^^xsd:float ;
+    freesurfer:fs_000448 "0.647"^^xsd:float ;
+    freesurfer:fs_000449 "0.108"^^xsd:float ;
+    freesurfer:fs_000450 "0.02"^^xsd:float ;
+    freesurfer:fs_000451 17 ;
+    freesurfer:fs_000452 "1.6"^^xsd:float ;
+    freesurfer:fs_000453 943 ;
+    freesurfer:fs_000454 705 ;
+    freesurfer:fs_000455 2040 ;
+    freesurfer:fs_000456 "2.562"^^xsd:float ;
+    freesurfer:fs_000457 "0.631"^^xsd:float ;
+    freesurfer:fs_000458 "0.158"^^xsd:float ;
+    freesurfer:fs_000459 "0.041"^^xsd:float ;
+    freesurfer:fs_000460 22 ;
+    freesurfer:fs_000461 "1.3"^^xsd:float ;
+    freesurfer:fs_000462 3523 ;
+    freesurfer:fs_000463 2336 ;
+    freesurfer:fs_000464 7803 ;
+    freesurfer:fs_000465 "2.88"^^xsd:float ;
+    freesurfer:fs_000466 "0.619"^^xsd:float ;
+    freesurfer:fs_000467 "0.109"^^xsd:float ;
+    freesurfer:fs_000468 "0.022"^^xsd:float ;
+    freesurfer:fs_000469 31 ;
+    freesurfer:fs_000470 "3.0"^^xsd:float ;
+    freesurfer:fs_000471 2593 ;
+    freesurfer:fs_000472 1816 ;
+    freesurfer:fs_000473 3211 ;
+    freesurfer:fs_000474 "1.781"^^xsd:float ;
+    freesurfer:fs_000475 "0.449"^^xsd:float ;
+    freesurfer:fs_000476 "0.154"^^xsd:float ;
+    freesurfer:fs_000477 "0.042"^^xsd:float ;
+    freesurfer:fs_000478 40 ;
+    freesurfer:fs_000479 "5.1"^^xsd:float ;
+    freesurfer:fs_000480 590 ;
+    freesurfer:fs_000481 358 ;
+    freesurfer:fs_000482 1289 ;
+    freesurfer:fs_000483 "2.931"^^xsd:float ;
+    freesurfer:fs_000484 "1.177"^^xsd:float ;
+    freesurfer:fs_000485 "0.09"^^xsd:float ;
+    freesurfer:fs_000486 "0.024"^^xsd:float ;
+    freesurfer:fs_000487 3 ;
+    freesurfer:fs_000488 "0.5"^^xsd:float ;
+    freesurfer:fs_000489 4633 ;
+    freesurfer:fs_000490 3204 ;
+    freesurfer:fs_000491 9642 ;
+    freesurfer:fs_000492 "2.702"^^xsd:float ;
+    freesurfer:fs_000493 "0.575"^^xsd:float ;
+    freesurfer:fs_000494 "0.119"^^xsd:float ;
+    freesurfer:fs_000495 "0.025"^^xsd:float ;
+    freesurfer:fs_000496 50 ;
+    freesurfer:fs_000497 "4.7"^^xsd:float ;
+    freesurfer:fs_000498 6134 ;
+    freesurfer:fs_000499 4169 ;
+    freesurfer:fs_000500 11781 ;
+    freesurfer:fs_000501 "2.604"^^xsd:float ;
+    freesurfer:fs_000502 "0.555"^^xsd:float ;
+    freesurfer:fs_000503 "0.121"^^xsd:float ;
+    freesurfer:fs_000504 "0.025"^^xsd:float ;
+    freesurfer:fs_000505 61 ;
+    freesurfer:fs_000506 "6.3"^^xsd:float ;
+    freesurfer:fs_000507 4889 ;
+    freesurfer:fs_000508 3411 ;
+    freesurfer:fs_000509 12186 ;
+    freesurfer:fs_000510 "2.952"^^xsd:float ;
+    freesurfer:fs_000511 "0.741"^^xsd:float ;
+    freesurfer:fs_000512 "0.117"^^xsd:float ;
+    freesurfer:fs_000513 "0.028"^^xsd:float ;
+    freesurfer:fs_000514 55 ;
+    freesurfer:fs_000515 "5.4"^^xsd:float ;
+    freesurfer:fs_000516 1603 ;
+    freesurfer:fs_000517 1111 ;
+    freesurfer:fs_000518 2532 ;
+    freesurfer:fs_000519 "2.199"^^xsd:float ;
+    freesurfer:fs_000520 "0.857"^^xsd:float ;
+    freesurfer:fs_000521 "0.118"^^xsd:float ;
+    freesurfer:fs_000522 "0.031"^^xsd:float ;
+    freesurfer:fs_000523 18 ;
+    freesurfer:fs_000524 "2.1"^^xsd:float ;
+    freesurfer:fs_000525 8623 ;
+    freesurfer:fs_000526 5684 ;
+    freesurfer:fs_000527 11631 ;
+    freesurfer:fs_000528 "1.968"^^xsd:float ;
+    freesurfer:fs_000529 "0.576"^^xsd:float ;
+    freesurfer:fs_000530 "0.131"^^xsd:float ;
+    freesurfer:fs_000531 "0.033"^^xsd:float ;
+    freesurfer:fs_000532 99 ;
+    freesurfer:fs_000533 "12.4"^^xsd:float ;
+    freesurfer:fs_000534 3801 ;
+    freesurfer:fs_000535 2638 ;
+    freesurfer:fs_000536 9537 ;
+    freesurfer:fs_000537 "3.078"^^xsd:float ;
+    freesurfer:fs_000538 "0.556"^^xsd:float ;
+    freesurfer:fs_000539 "0.125"^^xsd:float ;
+    freesurfer:fs_000540 "0.029"^^xsd:float ;
+    freesurfer:fs_000541 38 ;
+    freesurfer:fs_000542 "4.7"^^xsd:float ;
+    freesurfer:fs_000543 3835 ;
+    freesurfer:fs_000544 2630 ;
+    freesurfer:fs_000545 5055 ;
+    freesurfer:fs_000546 "1.869"^^xsd:float ;
+    freesurfer:fs_000547 "0.534"^^xsd:float ;
+    freesurfer:fs_000548 "0.132"^^xsd:float ;
+    freesurfer:fs_000549 "0.033"^^xsd:float ;
+    freesurfer:fs_000550 42 ;
+    freesurfer:fs_000551 "5.2"^^xsd:float ;
+    freesurfer:fs_000552 2212 ;
+    freesurfer:fs_000553 1614 ;
+    freesurfer:fs_000554 5519 ;
+    freesurfer:fs_000555 "3.079"^^xsd:float ;
+    freesurfer:fs_000556 "0.68"^^xsd:float ;
+    freesurfer:fs_000557 "0.119"^^xsd:float ;
+    freesurfer:fs_000558 "0.027"^^xsd:float ;
+    freesurfer:fs_000559 24 ;
+    freesurfer:fs_000560 "2.4"^^xsd:float ;
+    freesurfer:fs_000561 4822 ;
+    freesurfer:fs_000562 3228 ;
+    freesurfer:fs_000563 12783 ;
+    freesurfer:fs_000564 "3.106"^^xsd:float ;
+    freesurfer:fs_000565 "0.703"^^xsd:float ;
+    freesurfer:fs_000566 "0.11"^^xsd:float ;
+    freesurfer:fs_000567 "0.024"^^xsd:float ;
+    freesurfer:fs_000568 49 ;
+    freesurfer:fs_000569 "4.3"^^xsd:float ;
+    freesurfer:fs_000570 997 ;
+    freesurfer:fs_000571 617 ;
+    freesurfer:fs_000572 1665 ;
+    freesurfer:fs_000573 "2.338"^^xsd:float ;
+    freesurfer:fs_000574 "0.641"^^xsd:float ;
+    freesurfer:fs_000575 "0.075"^^xsd:float ;
+    freesurfer:fs_000576 "0.014"^^xsd:float ;
+    freesurfer:fs_000577 5 ;
+    freesurfer:fs_000578 "0.5"^^xsd:float ;
+    freesurfer:fs_000579 2456 ;
+    freesurfer:fs_000580 1475 ;
+    freesurfer:fs_000581 3499 ;
+    freesurfer:fs_000582 "2.22"^^xsd:float ;
+    freesurfer:fs_000583 "0.607"^^xsd:float ;
+    freesurfer:fs_000584 "0.118"^^xsd:float ;
+    freesurfer:fs_000585 "0.035"^^xsd:float ;
+    freesurfer:fs_000586 27 ;
+    freesurfer:fs_000587 "3.7"^^xsd:float ;
+    freesurfer:fs_000588 2324 ;
+    freesurfer:fs_000589 1556 ;
+    freesurfer:fs_000590 5275 ;
+    freesurfer:fs_000591 "2.897"^^xsd:float ;
+    freesurfer:fs_000592 "0.496"^^xsd:float ;
+    freesurfer:fs_000593 "0.099"^^xsd:float ;
+    freesurfer:fs_000594 "0.021"^^xsd:float ;
+    freesurfer:fs_000595 18 ;
+    freesurfer:fs_000596 "1.6"^^xsd:float ;
+    freesurfer:fs_000597 1136 ;
+    freesurfer:fs_000598 785 ;
+    freesurfer:fs_000599 3008 ;
+    freesurfer:fs_000600 "3.069"^^xsd:float ;
+    freesurfer:fs_000601 "0.611"^^xsd:float ;
+    freesurfer:fs_000602 "0.137"^^xsd:float ;
+    freesurfer:fs_000603 "0.036"^^xsd:float ;
+    freesurfer:fs_000604 16 ;
+    freesurfer:fs_000605 "1.7"^^xsd:float ;
+    freesurfer:fs_000606 2026 ;
+    freesurfer:fs_000607 1419 ;
+    freesurfer:fs_000608 4604 ;
+    freesurfer:fs_000609 "2.878"^^xsd:float ;
+    freesurfer:fs_000610 "0.49"^^xsd:float ;
+    freesurfer:fs_000611 "0.109"^^xsd:float ;
+    freesurfer:fs_000612 "0.022"^^xsd:float ;
+    freesurfer:fs_000613 19 ;
+    freesurfer:fs_000614 "1.8"^^xsd:float ;
+    freesurfer:fs_000615 1604 ;
+    freesurfer:fs_000616 1252 ;
+    freesurfer:fs_000617 1401 ;
+    freesurfer:fs_000618 "1.343"^^xsd:float ;
+    freesurfer:fs_000619 "0.285"^^xsd:float ;
+    freesurfer:fs_000620 "0.159"^^xsd:float ;
+    freesurfer:fs_000621 "0.042"^^xsd:float ;
+    freesurfer:fs_000622 21 ;
+    freesurfer:fs_000623 "3.3"^^xsd:float ;
+    freesurfer:fs_000624 6684 ;
+    freesurfer:fs_000625 4121 ;
+    freesurfer:fs_000626 10399 ;
+    freesurfer:fs_000627 "2.198"^^xsd:float ;
+    freesurfer:fs_000628 "0.699"^^xsd:float ;
+    freesurfer:fs_000629 "0.11"^^xsd:float ;
+    freesurfer:fs_000630 "0.026"^^xsd:float ;
+    freesurfer:fs_000631 75 ;
+    freesurfer:fs_000632 "6.7"^^xsd:float ;
+    freesurfer:fs_000633 1813 ;
+    freesurfer:fs_000634 1309 ;
+    freesurfer:fs_000635 3353 ;
+    freesurfer:fs_000636 "2.385"^^xsd:float ;
+    freesurfer:fs_000637 "0.744"^^xsd:float ;
+    freesurfer:fs_000638 "0.136"^^xsd:float ;
+    freesurfer:fs_000639 "0.029"^^xsd:float ;
+    freesurfer:fs_000640 27 ;
+    freesurfer:fs_000641 "2.4"^^xsd:float ;
+    freesurfer:fs_000642 8164 ;
+    freesurfer:fs_000643 5296 ;
+    freesurfer:fs_000644 15471 ;
+    freesurfer:fs_000645 "2.671"^^xsd:float ;
+    freesurfer:fs_000646 "0.679"^^xsd:float ;
+    freesurfer:fs_000647 "0.112"^^xsd:float ;
+    freesurfer:fs_000648 "0.027"^^xsd:float ;
+    freesurfer:fs_000649 68 ;
+    freesurfer:fs_000650 "8.9"^^xsd:float ;
+    freesurfer:fs_000651 5464 ;
+    freesurfer:fs_000652 3764 ;
+    freesurfer:fs_000653 9198 ;
+    freesurfer:fs_000654 "2.336"^^xsd:float ;
+    freesurfer:fs_000655 "0.503"^^xsd:float ;
+    freesurfer:fs_000656 "0.121"^^xsd:float ;
+    freesurfer:fs_000657 "0.027"^^xsd:float ;
+    freesurfer:fs_000658 58 ;
+    freesurfer:fs_000659 "6.1"^^xsd:float ;
+    freesurfer:fs_000660 1063 ;
+    freesurfer:fs_000661 790 ;
+    freesurfer:fs_000662 2933 ;
+    freesurfer:fs_000663 "2.956"^^xsd:float ;
+    freesurfer:fs_000664 "0.796"^^xsd:float ;
+    freesurfer:fs_000665 "0.128"^^xsd:float ;
+    freesurfer:fs_000666 "0.032"^^xsd:float ;
+    freesurfer:fs_000667 16 ;
+    freesurfer:fs_000668 "1.5"^^xsd:float ;
+    freesurfer:fs_000669 8779 ;
+    freesurfer:fs_000670 6198 ;
+    freesurfer:fs_000671 18701 ;
+    freesurfer:fs_000672 "2.652"^^xsd:float ;
+    freesurfer:fs_000673 "0.573"^^xsd:float ;
+    freesurfer:fs_000674 "0.124"^^xsd:float ;
+    freesurfer:fs_000675 "0.027"^^xsd:float ;
+    freesurfer:fs_000676 99 ;
+    freesurfer:fs_000677 "9.9"^^xsd:float ;
+    freesurfer:fs_000678 11174 ;
+    freesurfer:fs_000679 7544 ;
+    freesurfer:fs_000680 26065 ;
+    freesurfer:fs_000681 "2.981"^^xsd:float ;
+    freesurfer:fs_000682 "0.6"^^xsd:float ;
+    freesurfer:fs_000683 "0.119"^^xsd:float ;
+    freesurfer:fs_000684 "0.027"^^xsd:float ;
+    freesurfer:fs_000685 111 ;
+    freesurfer:fs_000686 "12.1"^^xsd:float ;
+    freesurfer:fs_000687 7924 ;
+    freesurfer:fs_000688 5150 ;
+    freesurfer:fs_000689 13067 ;
+    freesurfer:fs_000690 "2.314"^^xsd:float ;
+    freesurfer:fs_000691 "0.508"^^xsd:float ;
+    freesurfer:fs_000692 "0.121"^^xsd:float ;
+    freesurfer:fs_000693 "0.028"^^xsd:float ;
+    freesurfer:fs_000694 79 ;
+    freesurfer:fs_000695 "8.7"^^xsd:float ;
+    freesurfer:fs_000696 6202 ;
+    freesurfer:fs_000697 4098 ;
+    freesurfer:fs_000698 14938 ;
+    freesurfer:fs_000699 "3.084"^^xsd:float ;
+    freesurfer:fs_000700 "0.782"^^xsd:float ;
+    freesurfer:fs_000701 "0.095"^^xsd:float ;
+    freesurfer:fs_000702 "0.018"^^xsd:float ;
+    freesurfer:fs_000703 48 ;
+    freesurfer:fs_000704 "4.6"^^xsd:float ;
+    freesurfer:fs_000705 6145 ;
+    freesurfer:fs_000706 4167 ;
+    freesurfer:fs_000707 12821 ;
+    freesurfer:fs_000708 "2.751"^^xsd:float ;
+    freesurfer:fs_000709 "0.555"^^xsd:float ;
+    freesurfer:fs_000710 "0.118"^^xsd:float ;
+    freesurfer:fs_000711 "0.024"^^xsd:float ;
+    freesurfer:fs_000712 62 ;
+    freesurfer:fs_000713 "6.2"^^xsd:float ;
+    freesurfer:fs_000714 396 ;
+    freesurfer:fs_000715 292 ;
+    freesurfer:fs_000716 1416 ;
+    freesurfer:fs_000717 "3.25"^^xsd:float ;
+    freesurfer:fs_000718 "0.744"^^xsd:float ;
+    freesurfer:fs_000719 "0.152"^^xsd:float ;
+    freesurfer:fs_000720 "0.045"^^xsd:float ;
+    freesurfer:fs_000721 7 ;
+    freesurfer:fs_000722 "0.5"^^xsd:float ;
+    freesurfer:fs_000723 570 ;
+    freesurfer:fs_000724 464 ;
+    freesurfer:fs_000725 2607 ;
+    freesurfer:fs_000726 "3.6"^^xsd:float ;
+    freesurfer:fs_000727 "0.727"^^xsd:float ;
+    freesurfer:fs_000728 "0.131"^^xsd:float ;
+    freesurfer:fs_000729 "0.034"^^xsd:float ;
+    freesurfer:fs_000730 8 ;
+    freesurfer:fs_000731 "0.7"^^xsd:float ;
+    freesurfer:fs_000732 964 ;
+    freesurfer:fs_000733 623 ;
+    freesurfer:fs_000734 1844 ;
+    freesurfer:fs_000735 "2.56"^^xsd:float ;
+    freesurfer:fs_000736 "0.385"^^xsd:float ;
+    freesurfer:fs_000737 "0.097"^^xsd:float ;
+    freesurfer:fs_000738 "0.026"^^xsd:float ;
+    freesurfer:fs_000739 8 ;
+    freesurfer:fs_000740 "0.8"^^xsd:float ;
+    freesurfer:fs_000741 3756 ;
+    freesurfer:fs_000742 2418 ;
+    freesurfer:fs_000743 7824 ;
+    freesurfer:fs_000744 "3.04"^^xsd:float ;
+    freesurfer:fs_000745 "1.011"^^xsd:float ;
+    freesurfer:fs_000746 "0.097"^^xsd:float ;
+    freesurfer:fs_000747 "0.028"^^xsd:float ;
+    freesurfer:fs_000748 30 ;
+    freesurfer:fs_000749 "3.6"^^xsd:float .
+
+niiri:a1b7d670-603a-11f0-88dc-a6497c4a616c a prov:Agent,
+        prov:SoftwareAgent ;
+    nidm:NIDM_0000164 freesurfer:reconall ;
+    prov:hadVersion "version:..." .
+
+niiri:a1b7d7f6-603a-11f0-88dc-a6497c4a616c a prov:Activity ;
+    dcterms:description "FREESURFER RECONALL segmentation statistics" ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a1b7d670-603a-11f0-88dc-a6497c4a616c ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:a3a8c4f0-1c70-11f0-a1cc-d404e674afa0 ;
+            prov:hadRole sio:Subject ] ;
+    prov:used niiri:b3a8b870-1c70-11f0-a1cc-d404e674afa0 .
+
+niiri:a3a8c2de-1c70-11f0-a1cc-d404e674afa0 a prov:Agent,
+        prov:SoftwareAgent ;
+    nidm:NIDM_0000164 freesurfer: .
+
+niiri:a3a8c748-1c70-11f0-a1cc-d404e674afa0 a nidm:Project .
+
+niiri:b3a8bb18-1c70-11f0-a1cc-d404e674afa0 a prov:Activity ;
+    dcterms:description "Freesurfer segmentation statistics" ;
+    dcterms:isPartOf niiri:d3a8c7d4-1c70-11f0-a1cc-d404e674afa0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a3a8c2de-1c70-11f0-a1cc-d404e674afa0 ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:a3a8c4f0-1c70-11f0-a1cc-d404e674afa0 ;
+            prov:hadRole sio:Subject ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:entity niiri:b3a8b870-1c70-11f0-a1cc-d404e674afa0 ;
+            prov:hadRole nidm:T1WeightedRole ] ;
+    freesurfer:AnnotationFile "../label/lh.aparc.annot" ;
+    freesurfer:AnnotationFileTimeStamp "2025/04/18 11:45:30" ;
+    freesurfer:BrainVolStatsFixed-NotNeeded "because voxelvolume=1mm3" ;
+    freesurfer:CreationTime "2025/04/18-16:09:54-GMT" ;
+    freesurfer:NTableCols "10" ;
+    freesurfer:SUBJECTS_DIR "/orcd/scratch/bcs/001/yibei/freesurfer_compute/job-65216786-10-sub-0051465/ds/outputs/freesurfer_bidsapp/freesurfer" ;
+    freesurfer:Table "of FreeSurfer cortical parcellation anatomical statistics" ;
+    freesurfer:anatomy_type "surface" ;
+    freesurfer:cmdline "mris_anatomical_stats -th3 -mgz -cortex ../label/lh.cortex.label -f ../stats/lh.aparc.stats -b -a ../label/lh.aparc.annot -c ../label/aparc.annot.ctab sub-0051465 lh white" ;
+    freesurfer:cvs_version "8.0.0-beta" ;
+    freesurfer:generating_program "mris_anatomical_stats" ;
+    freesurfer:hemi "lh" ;
+    freesurfer:hostname "node1601" ;
+    freesurfer:machine "x86_64" ;
+    freesurfer:mrisurf.c-cvs_version "8.0.0-beta" ;
+    freesurfer:subjectname "sub-0051465" ;
+    freesurfer:sysname "Linux" ;
+    freesurfer:user "yibei" .
+
+niiri:d3a8c7d4-1c70-11f0-a1cc-d404e674afa0 a nidm:Session,
+        prov:Activity ;
+    dcterms:isPartOf niiri:a3a8c748-1c70-11f0-a1cc-d404e674afa0 .
+
+niiri:a3a8c4f0-1c70-11f0-a1cc-d404e674afa0 a prov:Agent,
+        prov:Person ;
+    ns2:src_subject_id "sub-0051465" .
+
+niiri:b3a8b870-1c70-11f0-a1cc-d404e674afa0 a nidm:AcquisitionObject,
+        nidm:MagneticResonanceImaging,
+        nidm:T1Weighted,
+        prov:Entity ;
+    crypto:sha512 "f249d6bffdf68b0690b20698d834231ae054443fa5e2b1168cba72999f5617cad07ed55cfd4cdf8fbe6ba81158d1020dc23adb2ca222ebd2495f69f2b1efbcba" ;
+    nidm:filename "sub-0051465_T1w.nii.gz" ;
+    nidm:hasImageUsageType nidm:Anatomical ;
+    nfo:filename "bids:abide-Caltech:sub-0051493/anat/sub-0051493_T1w.nii.gz" ;
+    prov:Location "/orcd/scratch/bcs/001/yibei/freesurfer_compute/job-65216786-10-sub-0051465/ds/inputs/data/BIDS/sub-0051465/anat/sub-0051465_T1w.nii.gz" .
+
