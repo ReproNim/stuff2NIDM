@@ -47,7 +47,7 @@ Given that the conversion of the .json mriqc results to csv generates a specific
 files generated in this fashion. The dictionary includes information about the contents of each column including
 name, description, value type, range, units, semantic annotation, etc. Since this is 'fixed' by the output of
 the .json converter, other users do note need to generate this file themselves, but rather just need to fetch this file
-from some source. The *mriqc* dictionary file is [here](CSVs/mriqc/mriqc_dictionary_v1.csv).
+from some source. The *mriqc* dictionary file is [here](../CSVs/mriqc/mriqc_dictionary_v1.csv).
 
 ### Step 4: Generate a tool description file
 With the *mriqc_json2csv.py* script, the tool description file is **automatically generated** from the MRIQC JSON provenance data. The generated file contains:
